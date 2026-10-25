@@ -1,0 +1,27 @@
+# IDE settings
+.idea/
+.vscode/
+
+# Backup and crash logs
+backend.zip
+hs_err_pid*.log
+
+# Java build output
+backend/target/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-prod.properties
+
+# Sensitive files
+*.pem
+*.key
